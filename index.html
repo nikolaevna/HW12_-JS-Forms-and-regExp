@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form class="registration">
+        <h1>Registration Form</h1>
+
+        <label for="username">
+            <span>Username</span>
+
+            <input type="text" id="username" minlength="2" maxlength="15" required autofocus>
+
+            <ul class="input-requirements">
+                <li>может содержать латинские буквы в любом кейсе</li>
+                <li>может содержать цифры от 0-9</li>
+                <li>minlength 2</li>
+                <li>maxlength 15</li>
+            </ul>
+        </label>
+
+        <label for="password">
+            <span>Password</span>
+
+            <input type="password" id="password"
+                   maxlength="15" minlength="6" required autofocus>
+
+            <ul class="input-requirements">
+                <li>может содержать латинские буквы в любом кейсе</li>
+                <li>может содержать цифры от 0-9</li>
+                <li>minlength 6</li>
+                <li>maxlength 15</li>
+                <li>должен содержать $&nbsp;и #</li>
+            </ul>
+        </label>
+
+        <br>
+
+        <input class="btn" type="submit">
+
+    </form>
+</div>
+<script src="main.js" type="text/javascript"></script>
+</body>
+</html>
