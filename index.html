@@ -10,15 +10,15 @@
 </head>
 <body>
 <div class="container">
-    <form class="registration">
+    <form class="registration" name="registration">
         <h1>Registration Form</h1>
 
-        <label for="username">
+        <label for="registration__input_username">
             <span>Username</span>
 
-            <input type="text" id="username" minlength="2" maxlength="15" required autofocus>
+            <input type="text" id="registration__input_username"  required autofocus>
 
-            <ul class="input-requirements">
+            <ul class="registration__input-requirements">
                 <li>может содержать латинские буквы в любом кейсе</li>
                 <li>может содержать цифры от 0-9</li>
                 <li>minlength 2</li>
@@ -26,13 +26,13 @@
             </ul>
         </label>
 
-        <label for="password">
+        <label for="registration__input_password">
             <span>Password</span>
 
-            <input type="password" id="password"
-                   maxlength="15" minlength="6" required autofocus>
+            <input type="password" id="registration__input_password"
+                    required autofocus>
 
-            <ul class="input-requirements">
+            <ul class="registration__input-requirements">
                 <li>может содержать латинские буквы в любом кейсе</li>
                 <li>может содержать цифры от 0-9</li>
                 <li>minlength 6</li>
@@ -43,7 +43,7 @@
 
         <br>
 
-        <input class="btn" type="submit">
+        <input class="registration__button" type="submit">
 
     </form>
 </div>

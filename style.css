@@ -41,7 +41,7 @@ a {
 }
 
 
-.input-requirements {
+.registration__input-requirements {
     font-size: 1.3rem;
     text-align: left;
     list-style: disc;
@@ -51,26 +51,21 @@ a {
     color: rgb(150,150,150);
 }
 
-
-.input-requirements li.invalid {
+.registration__input-requirements li.invalid {
     color: #e74c3c;
 }
-.input-requirements li.valid {
+.registration__input-requirements li.valid {
     color: #2ecc71;
 }
-
-
-
 fieldset {
     padding: 0;
     border: 0;
 }
-
 legend {
     padding: 0;
     font-weight: inherit;
 }
-.btn {
+.registration__button {
     background: #11f0c0;
     background-image: -webkit-linear-gradient(top, #11f0c0, #297cb0);
     background-image: -moz-linear-gradient(top, #11f0c0, #297cb0);
@@ -87,7 +82,7 @@ legend {
     text-decoration: none;
 }
 
-.btn:hover {
+.registration__button:hover {
     background: #3cfc76;
     background-image: -webkit-linear-gradient(top, #3cfc76, #34d9b2);
     background-image: -moz-linear-gradient(top, #3cfc76, #34d9b2);
